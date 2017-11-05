@@ -1,0 +1,3 @@
+#custlist { visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;}
+#orderhistory{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;}
+#abt{ visibility: hidden; position: absolute; height: 600px; width: 600px; overflow: scroll;}
