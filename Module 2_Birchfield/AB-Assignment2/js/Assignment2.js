@@ -71,8 +71,7 @@ function GenerateOutput(result)
     
     document.getElementById("custlist").innerHTML = display;
    
-  //  document.getElementById('enterstore').value = customerid;
-    //document.getElementById('CompanyID').value = customerid;
+  
 }
 
 function Orders(customerid)
@@ -103,14 +102,13 @@ function Orders(customerid)
         
         {
             display += "<tr><td>" + result[count].ProductName + "</td><td>" + result[count].Total + "</td></tr>";
-           //  display2+= "<tr><td>" + result[count].ProductName + "</td><td>" + result[count].Total + "</td></tr>";
+           
         }
         display +="</table>";
      
       document.getElementById('stname').value = "";     
       document.getElementById("sec2").innerHTML = display;
-       //document.getElementById("testb").style.visibility = "visible";
-       //document.getElementById("testb").innerHTML = display;
+       
         MenuChoice("cshist");
     }
   
@@ -145,15 +143,15 @@ function Orders1()
         
         {
             display += "<tr><td>" + result[count].ProductName + "</td><td>" + result[count].Total + "</td></tr>";
-           //  display2+= "<tr><td>" + result[count].ProductName + "</td><td>" + result[count].Total + "</td></tr>";
+
         }
         display +="</table>";
      
       document.getElementById("sec2").innerHTML = display;
-       //document.getElementById("testb").style.visibility = "visible";
-       //document.getElementById("testb").innerHTML = display;
+      
         MenuChoice("cshist");
     }
+ 
   
 }
 
